@@ -63,4 +63,4 @@ startup-landing-page/
 Built by **Shafaq Abdul Moiz**  ·  [LinkedIn](https://linkedin.com/in/shafaq-abdul-moiz/)  ·  [Email](mailto:shafaqabdulmoiz246@gmail.com)
 
 ⭐ Star this repo if you found it useful!
- Screenshot add karo: Chrome mein site kholo → F12 → Ctrl+Shift+P → "Capture full size screenshot" → save as preview.png → images/ folder mein upload karo.
+
