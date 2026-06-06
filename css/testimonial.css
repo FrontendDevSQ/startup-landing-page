@@ -63,10 +63,10 @@
   color: #bca7ff70;
   text-transform: uppercase;
   letter-spacing: 0.05em;
-  margin-top: auto; /* ✅ Push name to bottom */
+  margin-top: auto; 
 }
 
-/*responsiveness for testimonial section*/
+
 @media (max-width: 1200px) {
   .testimonial-section {
     padding: 5rem 1rem;
