@@ -121,12 +121,6 @@
   margin-left: 15px;
 }
 
-/* Unavailable features */
-.card ul li.disabled {
-  color: #ccc; 
-}
-
-
 .btn {
   margin: 25px auto 0;   
   margin-left: 20px;
@@ -148,36 +142,34 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
-/* Professional card button override */
+
 .card.professional .btn {
-  border: 2px solid #ff4f81; /* pink border */
-  color: #fff;           /* pink text */
+  border: 2px solid #ff4f81; 
+  color: #fff;        
   background: #ff4f81;
 }
 
 .card.professional .btn:hover {
-  background: #e33264;  /* pink fill on hover */
-  color: #fff;          /* white text on hover */
+  background: #e33264;  
+  color: #fff;         
 }
 
-/* ============================= */
-/* Responsive Design Adjustments */
-/* ============================= */
+
 
 /* Tablets (between 768px and 1024px) */
 @media (max-width: 1024px) and (min-width: 768px) {
   .pricing-cards {
-    flex-direction: row;       /* keep horizontal */
-    flex-wrap: wrap;           /* allow wrapping if needed */
+    flex-direction: row;       
+    flex-wrap: wrap;           
     gap: 20px;
-    max-width: 90%;            /* shrink container a bit */
+    max-width: 90%;            
   }
 
   .card {
-    flex: 1 1 calc(50% - 20px); /* 2 cards per row */
+    flex: 1 1 calc(50% - 20px); 
     height: auto;
     padding: 30px;
-    text-align: center;        /* center text */
+    text-align: center;      
   }
 
   .card h3,
@@ -200,7 +192,7 @@
 /* Mobile (up to 767px) */
 @media (max-width: 767px) {
   .pricing-cards {
-    flex-direction: column;   /* stack vertically */
+    flex-direction: column;  
     max-width: 100%;
   }
 
@@ -208,7 +200,7 @@
     width: 100%;
     height: auto;
     margin-bottom: 25px;
-    text-align: center;       /* center text */
+    text-align: center;      
     padding: 25px;
   }
 
@@ -224,7 +216,7 @@
   }
 
   .btn {
-    width: 100%;              /* full width button on mobile */
+    width: 100%;              
     margin: 20px auto 0;
     padding: 12px 0;
   }
