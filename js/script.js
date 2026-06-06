@@ -1,4 +1,4 @@
-// Simple slider interaction (optional enhancement)
+// Simple slider interaction
 const dots = document.querySelectorAll('.dot');
 dots.forEach(dot => {
   dot.addEventListener('click', () => {
